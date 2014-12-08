@@ -1,0 +1,33 @@
+body {
+    &.about-us {
+        @extend %margin-center;
+        @extend %wrapper;
+
+        section {
+            font-family: $Font-Lato;
+
+            article {
+                &.message {
+                    margin-bottom: 40px;
+                }
+
+                &.program-description {
+                    margin-bottom: 30px;
+                    padding-left: 30px;
+
+                    p {
+                        &.description {
+                            padding-left: 20px;
+                        }
+                    }
+                }
+            }
+
+            ul {
+                li {
+                    margin: 15px 0;
+                }
+            }
+        }
+    }
+}

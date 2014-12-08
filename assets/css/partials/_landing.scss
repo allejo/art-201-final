@@ -1,0 +1,28 @@
+body {
+    &.landing {
+        @extend %margin-center;
+
+        background: url("../images/background_landing.png") no-repeat center center fixed;
+        background-size: cover;
+        display: table;
+
+        section {
+            color: $Color-White;
+            display: table-row;
+            text-align: center;
+
+            h1 {
+                font-family: $Font-Lato;
+                font-size: 58px;
+                font-weight: 100;
+            }
+
+            p {
+                font-family: $Font-Roboto;
+                font-size: 22px;
+                font-weight: 100;
+                margin: 10px 0;
+            }
+        }
+    }
+}

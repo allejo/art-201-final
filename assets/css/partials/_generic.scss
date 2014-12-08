@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    line-height: 1.4em;
+}
+
+blockquote {
+    @include outer-container(710px);
+
+    margin-bottom: 10px;
+    margin-top: 20px;
+    vertical-align: top;
+
+    &:before {
+        @include span-columns(1);
+
+        content: '\F10D';
+        color: #656565;
+        font-family: FontAwesome;
+        font-size: 40px;
+        vertical-align: top;
+    }
+
+    p {
+        @include span-columns(11);
+        @include omega;
+
+        color: #656565;
+        display: inline-block;
+        font-family: $Font-Palatino;
+        font-size: 16px;
+
+        &.author {
+            @include span-columns(12);
+
+            display: block;
+            text-align: right;
+
+            &:before {
+                content: '\2014';
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+body {
+    &.symphony {
+        background: url("../images/symphony.png") repeat;
+    }
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 30px;
+
+    li {
+        list-style-type: disc;
+        margin: 10px 0;
+    }
+}

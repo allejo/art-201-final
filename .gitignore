@@ -1,0 +1,17 @@
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*~
+
+# Caches
+node_modules
+.sass-cache
+
+# IDE Files
+.idea/workspace.xml

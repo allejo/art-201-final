@@ -1,0 +1,19 @@
+header {
+    @include outer-container;
+
+    margin-bottom: 20px;
+
+    > section {
+        @include span-columns(4);
+
+        img {
+            margin-top: 20px;
+        }
+    }
+
+    > nav {
+        @include span-columns(8);
+
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,124 @@
+<!-- @include "partials/head.kit" -->
+
+<body class="partners symphony">
+    <!-- @include "partials/header.kit" -->
+
+    <section>
+        <h2>Our Partners</h2>
+        <p>Music LA launched in July, 2005 with the following Department of Cultural Affairs Neighborhood Arts and Cultural Centers, music providers, and public schools:</p>
+
+        <ul class="schools">
+            <li>American Youth Symphony at Angeles Mesa Elementary School</li>
+            <li>American Youth Symphony at Grand View Elementary School</li>
+            <li>Art in the Park / Lalo Guerrero School of Music</li>
+            <li>CSUN Youth Orchestras at California State University, Northridge</li>
+            <li>Henry Mancini Institute at the Croatian Cultural Center</li>
+            <li>Henry Mancini Institute at the Los Angeles Theater Center</li>
+            <li>HOLA (Heart of Los Angeles Youth)</li>
+            <li>McGroarty Arts Center</li>
+            <li>Neighborhood Music School</li>
+            <li>Plaza de la Raza</li>
+            <li>San Fernando Valley Youth Chorus at the Canoga Park Youth Arts Center</li>
+            <li>Silverlake Conservatory of Music at Barnsdall Gallery Theater</li>
+            <li>Sound Art at the Lankershim Arts Center</li>
+            <li>Tia Chucha’s Centro Cultural</li>
+            <li>William Grant Still Arts Center</li>
+            <li>Zimmer Children’s Museum</li>
+        </ul>
+
+        <h2>Our Students</h2>
+
+        <section class="our-students">
+            <div class="picture-border rotate left">
+                <img src="../assets/images/girl_with_drum.png" width="410" />
+            </div>
+            <section class="content">
+                <ul class="information">
+                    <li>640 young people took Music LA classes throughout the City of Los Angeles</li>
+                    <li>69% of the students had no previous experience with music education</li>
+                    <li>Program participants ranged in age between 20 months and 19 years</li>
+                    <li>53% of the students served were female</li>
+                </ul>
+
+                <article class="students">
+                    <canvas class="ethnicityChart" id="ethnicityChart" width="200" height="200"></canvas>
+                    <section class="legend">
+                        <ul>
+                            <li>
+                                <div style="background-color: #F7464A"></div>
+                                <span>Hispanic / Latino (50%)</span>
+                            </li>
+                            <li>
+                                <div style="background-color: #46BFBD"></div>
+                                <span>African-American (35%)</span>
+                            </li>
+                            <li>
+                                <div style="background-color: #FDB45C"></div>
+                                <span>White (10%)</span>
+                            </li>
+                            <li>
+                                <div style="background-color: #2D882D"></div>
+                                <span>Asian or Pacific Islander (5%)</span>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+            </section>
+        </section>
+
+        <script src="../assets/js/min/chart.min.js"></script>
+        <script>
+            var ctx = $("#ethnicityChart").get(0).getContext("2d");
+            var data = [
+                {
+                    value: 50,
+                    color:"#F7464A",
+                    highlight: "#D46A6A",
+                    label: "Hispanic/Latino"
+                },
+                {
+                    value: 35,
+                    color: "#46BFBD",
+                    highlight: "#407F7F",
+                    label: "African-American"
+                },
+                {
+                    value: 10,
+                    color: "#FDB45C",
+                    highlight: "#D49A6A",
+                    label: "White"
+                },
+                {
+                    value: 5,
+                    color: "#2D882D",
+                    highlight: "#55AA55",
+                    label: "Asian or Pacific Islander"
+                }
+            ];
+            var ethnicityChart = new Chart(ctx).Pie(data, {
+                animation: false,
+                tooltipEvents: []
+            });
+        </script>
+
+        <h2>OUR PROGRAM</h2>
+        <section class="program">
+            <ul>
+                <li>Music LA offered a total of 565 class sessions - over 1,400 hours of music instruction in just 8 weeks</li>
+                <li>Students paid an average of $7 per class session</li>
+                <li>Each 3- to 8-week program was individually designed and community specific</li>
+                <li>Over 60 local professional musicians were hired to provide quality music instruction</li>
+                <li>Curriculum included music theory, instrument training, vocal instruction, and performance</li>
+                <li>Culminating recitals were attended by over 1,500 family, friends, and community members</li>
+            </ul>
+
+            <div class="picture-border rotate right">
+                <img src="../assets/images/classroom_lesson.png" width="410" />
+            </div>
+        </section>
+    </section>
+
+    <!-- @include "partials/footer.kit" -->
+</body>
+
+<!-- @include "partials/foot.kit" -->

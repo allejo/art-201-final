@@ -1,0 +1,85 @@
+body {
+    &.partners {
+        @extend %margin-center;
+        @extend %wrapper;
+
+        font-family: $Font-Lato;
+
+        > section {
+            .schools {
+                @include outer-container;
+
+                padding-left: 30px;
+
+                li {
+                    @include span-columns(6);
+                    @include omega();
+
+                    list-style-type: none;
+                    margin: {
+                        bottom: 5px;
+                        top: 5px;
+                    }
+                }
+            }
+
+            .our-students {
+                @include outer-container;
+
+                > div {
+                    @include span-columns(5);
+                }
+
+                .content {
+                    @include span-columns(7);
+
+                    .information {
+                        overflow: hidden;
+                    }
+
+                    .students {
+                        margin-top: 10px;
+
+                        .ethnicityChart {
+                            margin-left: 20px;
+                        }
+
+                        .legend {
+                            display: inline-block;
+                            margin-top: 30px;
+                            vertical-align: top;
+
+                            ul {
+                                li {
+                                    list-style-type: none;
+                                    vertical-align: top;
+
+                                    div {
+                                        $size: 12px;
+
+                                        display: inline-block;
+                                        height: $size;
+                                        margin-right: 10px;
+                                        width: $size;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .program {
+                @include outer-container;
+
+                > ul {
+                    @include span-columns(7);
+                }
+
+                > div {
+                    @include span-columns(5);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+body {
+    &.curriculum {
+        @extend %margin-center;
+        @extend %wrapper;
+
+        font-family: $Font-Lato;
+    }
+}

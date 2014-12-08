@@ -1,0 +1,10 @@
+body {
+    &.mission {
+        @extend %margin-center;
+        @extend %wrapper;
+
+        > section {
+            font-family: $Font-Lato;
+        }
+    }
+}
