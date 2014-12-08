@@ -1716,6 +1716,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/images\/auditorium_lesson.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 231708,
+		"inputAbbreviatedPath": "\/assets\/images\/auditorium_lesson.png",
+		"outputAbbreviatedPath": "\/assets\/images\/auditorium_lesson.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/background_landing.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1727,13 +1738,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/background_landing_test.png": {
+	"\/assets\/images\/banner_mission.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/background_landing_test.png",
-		"outputAbbreviatedPath": "\/assets\/images\/background_landing_test.png",
+		"inputAbbreviatedPath": "\/assets\/images\/banner_mission.png",
+		"outputAbbreviatedPath": "\/assets\/images\/banner_mission.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
