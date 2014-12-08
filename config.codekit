@@ -1738,6 +1738,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/banner_curriculum.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 541333,
+		"inputAbbreviatedPath": "\/assets\/images\/banner_curriculum.png",
+		"outputAbbreviatedPath": "\/assets\/images\/banner_curriculum.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/banner_mission.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1756,6 +1767,17 @@
 		"initialSize": 602148,
 		"inputAbbreviatedPath": "\/assets\/images\/banner_partners.png",
 		"outputAbbreviatedPath": "\/assets\/images\/banner_partners.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/citywide_program.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242179,
+		"inputAbbreviatedPath": "\/assets\/images\/citywide_program.png",
+		"outputAbbreviatedPath": "\/assets\/images\/citywide_program.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
