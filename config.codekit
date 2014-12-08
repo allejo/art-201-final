@@ -1727,17 +1727,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/classroom_lesson-large.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9.99712e+06,
-		"inputAbbreviatedPath": "\/assets\/images\/classroom_lesson-large.png",
-		"outputAbbreviatedPath": "\/assets\/images\/classroom_lesson-large.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/classroom_lesson.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1756,17 +1745,6 @@
 		"initialSize": 5507,
 		"inputAbbreviatedPath": "\/assets\/images\/dca_logo.png",
 		"outputAbbreviatedPath": "\/assets\/images\/dca_logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/girl_with_drum-large.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6.31262e+06,
-		"inputAbbreviatedPath": "\/assets\/images\/girl_with_drum-large.png",
-		"outputAbbreviatedPath": "\/assets\/images\/girl_with_drum-large.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1980,6 +1958,18 @@
 		"outputAbbreviatedPath": "\/dist\/partners.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
+		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 0,
+		"expandTabs": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
