@@ -6,6 +6,7 @@ For my final project in my Art 201 class, I was given the task of creating a web
 - [Bourbon](http://bourbon.io)
 - [Neat](http://neat.bourbon.io)
 - [Kit language](http://incident57.com/codekit/help.html#kit)
+- [ChartJS](http://www.chartjs.org/)
 
 Enough to say, I was satisfied with what I achieved by using a combination of this technology.
 
