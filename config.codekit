@@ -1815,6 +1815,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/musicla-is.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 270108,
+		"inputAbbreviatedPath": "\/assets\/images\/musicla-is.png",
+		"outputAbbreviatedPath": "\/assets\/images\/musicla-is.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/musicla_logo.png": {
 		"fileType": 32768,
 		"ignore": 0,

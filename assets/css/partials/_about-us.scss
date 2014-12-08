@@ -3,12 +3,19 @@ body {
         @extend %margin-center;
         @extend %wrapper;
 
-        section {
+        > section {
             font-family: $Font-Lato;
 
-            article {
+            > article {
                 &.message {
+                    background-color: white;
+                    border-left: 5px solid lightgrey;
                     margin-bottom: 40px;
+                    padding: 30px;
+
+                    p {
+                        margin-left: 30px;
+                    }
                 }
 
                 &.program-description {
@@ -20,6 +27,20 @@ body {
                             padding-left: 20px;
                         }
                     }
+                }
+            }
+
+            > section {
+                @include outer-container;
+
+                > div {
+                    @include span-columns(5);
+                }
+
+                > ul {
+                    @include span-columns(7);
+
+                    padding-left: 0;
                 }
             }
 
